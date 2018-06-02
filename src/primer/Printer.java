@@ -19,7 +19,7 @@ public class Printer extends Observable implements Runnable{
     
     Thread t;
     List<Integer> list;
-    Integer prime;
+    
     int length = 0;
     public Printer(List<Integer> list){
 this.list = list;

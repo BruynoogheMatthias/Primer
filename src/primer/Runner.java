@@ -26,6 +26,7 @@ public class Runner extends Observable implements Observer, Runnable {
         this.start = start;
         this.add = add;
         
+        
     }
     
     @Override
